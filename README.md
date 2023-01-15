@@ -1,2 +1,2 @@
 Terminal Command:
-nodemon src/app.js
+'nodemon src/app.js'
