@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIGN UP</title>
+  <link rel="stylesheet" type="text/css" href="/css/signup.css">
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;900&display=swap"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
+/>
+<header><%- include('../partials/header') %></header>
+
+<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+</head>
+<body>
+    <div class="logo"><img
+      class="removebg-preview-1-icon"
+      alt=""
+      src="/pic/4015413-15160removebgpreview-1@2x.png"
+    /></div>
+    <br><br><br><br><br><br><br>
+    <b class="techturtles">techTurtles</b>
+    <form name="signupform"  action="/register" onsubmit="return validateForm()" method="post">
+  <div class="login-container" width="50%" height="50%">
+    <div class="login">
+    <h1 class="signup">Sign Up</h1>
+    <div class="login-options">
+      <label for="email" class="x"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="password" class="x"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" minlength="8" required>
+      
+
+  
+      <label for="confirmpassword" class="x"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Confirm Password" name="confirmpassword" minlength="8" required>
+      <br><span class="formerror" id="password"> 
+        <%if(info.length>0){%>
+          <%= info %><% }%> 
+      </span><br>
+    </div>
+        <button type="submit" class="btn">Sign Up</button>
+        <!-- <input type="submit" class="btn" value="Sign up"/> -->
+        </div>
+      </form>
+        <!-- <div class="gg">
+          <div id="my-signin2"></div>
+          <script src="/css/signup.js">
+          </script>
+          <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+    </div> -->
+  
+    
+    
+  </div>
+</body>
+</html>
+

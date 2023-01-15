@@ -1,0 +1,143 @@
+.logo{
+  margin-top: auto;
+  margin-left: auto;
+
+}
+  body {
+  background-color:#ffffff;
+}
+.logo{
+  display: block;
+}
+.login-container {
+
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  font-family: 'Quicksand', sans-serif;
+  width: 500px;
+  margin: auto;
+  padding: 30px 50px 50px 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.login{
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-options {
+  margin-bottom: auto;
+  margin-top: 10%;
+}
+.google{
+  opacity: 1;
+  margin-top: auto;
+  margin-bottom: 2cm;
+  border: #EC672C;
+  border-radius: 10px;
+  box-sizing: content-box;
+
+}
+.google :hover{
+  opacity: 0.4;
+}
+
+.btn{
+
+  width: 100%;
+  background-color: #ff5c00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.btn:hover{
+  /* box-shadow: 3px 3px 2px 1px rgba(255, 140, 0, 0.2); */
+  border: 3px solid #ff5c00;
+  background-color: var(--color-red-300);
+  color: #ff5c00;
+  box-shadow: 2px 2px 5px var(--color-red-500);
+  transform: scale(1.05);
+}
+input[type=text], input[type=password] {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(1, 0, 0);
+  caret-color: #ff5c00;
+}
+.removebg-preview-1-icon {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 146px;
+  height: 116px;
+  object-fit: cover;
+}
+.techturtles {
+  position: absolute;
+  top: 42px;
+  left: 151px;
+  font-size: 47.84px;
+  text-transform: capitalize;
+  color: #ff5c00;
+  letter-spacing: 0.01em;
+  line-height: 22.27px;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+}
+.signup{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: bold;
+font-size: 38.8464px;
+line-height: 22px;
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+
+.or {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.8464px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  
+  color: #000000;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .formerror {
+            color: red;
+        }
+
+
+        

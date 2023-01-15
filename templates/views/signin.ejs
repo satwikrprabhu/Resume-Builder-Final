@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIGN IN</title>
+  <link rel="stylesheet" type="text/css" href="/css/signup.css">
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+/>
+<header><%- include('../partials/header') %></header>
+
+</head>
+<body>
+    <div class="logo"><img
+      class="removebg-preview-1-icon"
+      alt=""
+      src="/pic/4015413-15160removebgpreview-1@2x.png"
+    /></div>  <br><br><br><br><br><br><br>
+    <b class="techturtles">techTurtles</b>
+  <div class="login-container" width="50%" height="50%" >
+    <h1>Sign In</h1>
+    <form action="/signin" method="post">
+    <div class="login-options">
+      <!-- <label for="email" class="x"><b>Username or Email</b></label>
+        <input type="text" placeholder="Username or Email" />
+        <label for="email" class="x"><b>Password</b></label>
+        <input type="password" placeholder="Password" /> -->
+        <label for="email" class="x"><b>Email</b></label>
+          <input type="text"  placeholder="Email" name="email" minlength="8" required/>
+          <label for="password" class="x"><b>Password</b></label>
+          <input type="password" placeholder="Your pasword" name="password" minlength="8" required/>
+          <br><span class="formerror" id="password">
+            <%if(info.length>2){%>
+            <%= info %><% }%> 
+          </span><br>
+          <!-- <button type="button" class="hi">sign in</button> -->
+    </div>  
+    <!-- <input type="submit" class="btn" value="SignIn"> -->
+    <button type="submit" class="btn">Sign In</button> 
+    </form>
+   
+        <!-- <button type="button" class="btn">SignIn</button> -->
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,103 @@
+:root {
+  /* fonts */
+  --font-quicksand: Quicksand;
+  --font-nunito: Nunito;
+  --h4: Poppins;
+  --font-inter: Inter;
+  --p: Roboto;
+  --font-manrope: Manrope;
+  --font-inherit: inherit;
+  --font-ubuntu: Ubuntu;
+
+  /* font sizes */
+  --font-size-sm: 2.15px;
+  --font-size-base: 2.83px;
+  --font-size-lg: 2.02px;
+  --font-size-xl: 2.27px;
+  --font-size-2xl: 2.77px;
+  --font-size-3xl: 2.93px;
+  --font-size-4xl: 2.67px;
+  --font-size-5xl: 2.49px;
+  --font-size-6xl: 2.24px;
+  --font-size-7xl: 2.74px;
+  --font-size-8xl: 3.87px;
+  --font-size-9xl: 3.64px;
+  --font-size-10xl: 3px;
+  --font-size-11xl: 3.11px;
+  --font-size-12xl: 3.98px;
+  --font-size-13xl: 4.86px;
+  --font-size-14xl: 4.03px;
+  --font-size-15xl: 4.18px;
+  --font-size-16xl: 7.5px;
+  --font-size-17xl: 7.11px;
+  --font-size-18xl: 8.9px;
+  --font-size-19xl: 8.25px;
+  --font-size-20xl: 8.75px;
+  --font-size-21xl: 10.01px;
+  --font-size-22xl: 11.75px;
+  --font-size-23xl: 13.92px;
+  --font-size-24xl: 14.45px;
+  --font-size-25xl: 14.85px;
+  --font-size-26xl: 16px;
+  --font-size-27xl: 18.39px;
+  --font-size-28xl: 18px;
+  --font-size-29xl: 20px;
+  --font-size-30xl: 23.2px;
+  --font-size-31xl: 24px;
+  --font-size-32xl: 28.9px;
+  --pp-size: 28px;
+  --font-size-34xl: 30.65px;
+  --font-size-35xl: 32.48px;
+  --p-size: 33px;
+  --font-size-37xl: 46.4px;
+  --h3-size: 47px;
+  --font-size-39xl: 57.81px;
+
+  /* Colors */
+  --white: #fff;
+  --gray-6: #f2f2f2;
+  --color-gray-200: #c4c4c4;
+  --color-gray-300: #a9a9a9;
+  --b: #9b9b9b;
+  --color-gray-500: #999;
+  --color-gray-600: #737373;
+  --color: #666;
+  --color-gray-800: #464646;
+  --color-gray-900: #3a3a3a;
+  --gray-1: #333;
+  --black-color: #1d1d1d;
+  --color-gray-1200: #141414;
+  --color-gray-1300: rgba(255, 255, 255, 0.5);
+  --color-black: #000;
+  --color-red-100: #ff6b00;
+  --color-red-200: #ff5c00;
+  --color-tan-100: #fbcfb6;
+  --color-indigo-100: #377dff;
+  --color-indigo-200: #2f80ed;
+  --e: #42489e;
+  --color-green-100: #30b93e;
+  --color-purple-100: #96005a;
+  --blue-2: #2d9cdb;
+  --color-violet: #ef5da8;
+
+  /* Paddings */
+  --padding-sm: 3px;
+  --padding-md: 11.134822845458984px;
+  --padding-lg: 46.39509582519531px;
+
+  /* border radiuses */
+  --br-6xs: 1.07px;
+  --br-5xs: 2.78px;
+  --br-4xs: 2.15px;
+  --br-3xs: 2.13px;
+  --br-2xs: 3.22px;
+  --br-xs: 4.97px;
+  --br-sm: 5.37px;
+  --br-md: 6px;
+  --br-lg: 13.91px;
+  --br-xl: 20.43px;
+  --br-2xl: 20.92px;
+  --br-3xl: 22.27px;
+  --br-4xl: 24.87px;
+  --br-5xl: 57.68px;
+}
